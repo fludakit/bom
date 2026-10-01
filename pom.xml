@@ -35,7 +35,7 @@
     </scm>
 
     <properties>
-        <fluda.version>1.0.0-SNAPSHOT</fluda.version>
+        <fluda-jdbc-client.version>1.0.0-SNAPSHOT</fluda-jdbc-client.version>
     </properties>
 
     <dependencyManagement>
@@ -44,17 +44,17 @@
             <dependency>
                 <groupId>io.github.fludakit</groupId>
                 <artifactId>fluda-jdbc-client-core</artifactId>
-                <version>${fluda.version}</version>
+                <version>${fluda-jdbc-client.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.fludakit</groupId>
                 <artifactId>fluda-jdbc-client-config</artifactId>
-                <version>${fluda.version}</version>
+                <version>${fluda-jdbc-client.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.fludakit</groupId>
                 <artifactId>fluda-jdbc-client-cdi</artifactId>
-                <version>${fluda.version}</version>
+                <version>${fluda-jdbc-client.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
