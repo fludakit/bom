@@ -63,7 +63,7 @@ To publish a release to Maven Central:
 The workflow will:
 - Set the release version
 - Commit, tag, and push
-- Build with `-P release` (signs artifacts, publishes to Maven Central)
+- Deploy to Maven Central using CI settings (GPG signing, source JARs)
 - Bump to the next SNAPSHOT version
 
 ## Related repositories
