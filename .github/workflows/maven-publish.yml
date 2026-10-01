@@ -47,7 +47,7 @@ jobs:
           git push origin main --tags
 
       - name: Publish to Maven Central
-        run: mvn -B -ntp deploy -DskipTests
+        run: mvn -B -ntp -P release deploy -DskipTests
         env:
           MAVEN_USERNAME: ${{ secrets.CENTRAL_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.CENTRAL_TOKEN }}
