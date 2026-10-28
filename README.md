@@ -26,11 +26,11 @@ Then add FluDa dependencies without specifying versions:
 <dependencies>
     <dependency>
         <groupId>io.github.fludakit</groupId>
-        <artifactId>fluda-jdbc-client-core</artifactId>
+        <artifactId>fluda-jdbc-core</artifactId>
     </dependency>
     <dependency>
         <groupId>io.github.fludakit</groupId>
-        <artifactId>fluda-jdbc-client-cdi</artifactId>
+        <artifactId>fluda-jdbc-cdi</artifactId>
     </dependency>
 </dependencies>
 ```
@@ -39,9 +39,9 @@ Then add FluDa dependencies without specifying versions:
 
 | Module | Description |
 |---|---|
-| `fluda-jdbc-client-core` | Fluent JDBC client core |
-| `fluda-jdbc-client-config` | MicroProfile Config integration |
-| `fluda-jdbc-client-cdi` | CDI extension |
+| `fluda-jdbc-core` | Fluent JDBC client core |
+| `fluda-jdbc-config` | MicroProfile Config integration |
+| `fluda-jdbc-cdi` | CDI extension |
 
 ## Building
 
